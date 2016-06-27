@@ -1,0 +1,18 @@
+{
+  "name": "y",
+  "version": "0.0.0",
+  "description": "Generate a branch-by-branch report of JSON endpoint's weight.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [
+    "json",
+    "performance"
+  ],
+  "author": "Nate Hunzaker, Viget Labs",
+  "license": "MIT",
+  "dependencies": {
+    "docopt": "0.6.2"
+  }
+}
