@@ -2,6 +2,13 @@
 
 Quickly identify large branches in JSON API endpoints.
 
+```
+npm install -g json-weight
+curl -s http://example.com/api/endpoint.json | json-weight
+```
+
+## Why?
+
 When conducting performance audits, we found it difficult to determine
 the shape of JSON API endpoints. Why was the output so large? What was
 the source of the problem?
