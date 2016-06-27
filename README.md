@@ -15,7 +15,7 @@ large JSON endpoints.
 output-command | json-weight <depth> (optional)
 ```
 
-## For example:
+For example:
 
 ```
 curl -s http://example.com/api/endpoint.json | json-weight
