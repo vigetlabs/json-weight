@@ -1,6 +1,6 @@
 {
   "name": "json-weight",
-  "version": "0.0.0",
+  "version": "0.1.0"
   "description": "Generate a branch-by-branch report of JSON endpoint's weight.",
   "main": "lib/index.js",
   "scripts": {},
