@@ -25,30 +25,24 @@ output-command | json-weight <depth> (optional)
 For example:
 
 ```
-curl http://code.viget.com/json-weight/endpoint.json | json-weight
-curl http://code.viget.com/json-weight/endpoint.json | json-weight 2
+curl http://code.viget.com/json-weight/people.json | json-weight
+curl http://code.viget.com/json-weight/people.json | json-weight 2
 ```
 
 ## Output
 
 ```
-curl http://code.viget.com/json-weight/endpoint.json | json-weight 2
-
-...
-
-0: 67.72kb (31.31kb gzip)
-  tags: 0.05kb (0.10kb gzip)
-  friends: 66.89kb (30.21kb gzip)
-1: 68.98kb (31.74kb gzip)
-  tags: 0.06kb (0.09kb gzip)
-  friends: 68.00kb (30.45kb gzip)
-2: 69.52kb (32.02kb gzip)
-  tags: 0.07kb (0.14kb gzip)
-  friends: 68.62kb (30.74kb gzip)
-3: 70.09kb (32.32kb gzip)
-  tags: 0.06kb (0.10kb gzip)
-  friends: 69.12kb (31.00kb gzip)
-4: 71.86kb (32.43kb gzip)
-  tags: 0.07kb (0.11kb gzip)
-  friends: 70.75kb (31.52kb gzip)
+curl -s http://code.viget.com/json-weight/people.json | json-weight 2
+0: 69.14kb (30.95kb gzip)
+  friends: 67.31kb (30.03kb gzip)
+1: 67.54kb (30.55kb gzip)
+  friends: 66.09kb (29.85kb gzip)
+2: 71.48kb (31.80kb gzip)
+  friends: 69.80kb (30.95kb gzip)
+3: 74.67kb (33.21kb gzip)
+  friends: 72.92kb (32.50kb gzip)
+4: 72.47kb (32.12kb gzip)
+  friends: 71.03kb (31.61kb gzip)
+5: 73.16kb (32.53kb gzip)
+  friends: 71.06kb (31.78kb gzip)
 ```
