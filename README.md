@@ -16,6 +16,8 @@ the source of the problem?
 `json-weight` is a simple tool to assist in the troubleshooting of
 large JSON endpoints.
 
+For a more detailed walkthrough, checkout [the related blog post](https://www.viget.com/articles/keeping-json-endpoints-in-check-with-json-weight).
+
 ## Usage
 
 ```
